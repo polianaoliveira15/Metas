@@ -24,6 +24,7 @@ const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4]
 
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
+
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
     let tempoFinal = tempoObjetivo - tempoAtual;
@@ -38,6 +39,6 @@ function calculaTempo(tempoObjetivo) {
 
     if (tempoFinal > 0){
  return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
-}else{
-    return "Prazo encerrado";
-}
+    }else{
+    return "Prazo encerrado"
+    }
