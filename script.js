@@ -6,16 +6,14 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você está no último ano do Ensino Médio, e ainda não tem ideia que faculdade fazer 
-    ou curso profissionalizante? Te darei uma ideia que tal saber mais sobre o Meio Ambientre?
-    O que ele pode causar em nosso platena, e as condições climáticas, vamos nessa?",
+        enunciado: "Você está no último ano do Ensino Médio, e ainda não tem ideia que faculdade fazer ou curso profissionalizante? E se você aprender mais sobre o Meio Ambiente, as reações climáticas que podem fazer toda a diferença no nosso planeta, e saber muito mais? Vamos nessa? ",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Vamos nessa!",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!" ,
+                texto: "Não quero!" ,
                 afirmacao: "afirmação" 
             }
 
